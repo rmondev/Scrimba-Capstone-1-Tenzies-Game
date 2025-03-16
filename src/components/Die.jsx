@@ -8,7 +8,8 @@ const Die = (props) => {
       aria-pressed={props.isHeld}
       aria-label={`Die with value of ${props.value}, is ${props.isHeld ? 'held' : 'not held'}`}
     >
-        {props.value}
+   {props.value}
+       
     </button>
   )
 }
