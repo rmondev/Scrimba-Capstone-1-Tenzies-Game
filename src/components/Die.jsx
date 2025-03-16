@@ -1,9 +1,6 @@
 import React from 'react'
 
 const Die = (props) => {
-
-
-
   return (
     <button 
       style={{backgroundColor: props.isHeld ? '#59E391' : null}}
